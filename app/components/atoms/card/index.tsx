@@ -1,4 +1,4 @@
-import { ClawIcon } from "../claw-icon";
+import { ActionIcon } from "../action-icon";
 import styles from "./card.module.css";
 
 const Card = () => {
@@ -8,7 +8,7 @@ const Card = () => {
         <div className={styles.innerBackground}>
             <div className={styles.shape}>
               <div className={styles.icon}>
-                <ClawIcon />
+                <ActionIcon type="shield"/>
               </div>
           </div>
         </div>
