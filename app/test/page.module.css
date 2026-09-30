@@ -1,0 +1,28 @@
+.image {
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  object-fit: fill;
+}
+
+.placeholder {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  display: flex;
+  gap: 50px;
+}
+
+/* Test Vars for alternate card designs */
+.altCard {
+  --card-inner-frame-display: block;
+  --card-inner-background-display: block;
+  --card-shape-display: flex;
+  --card-outer-border: 0.5px solid black;
+  --card-inner-border: 1px solid black;
+  --card-shape-border-radius: 40%;
+  --card-container-background: orange;
+  --card-inner-frame-background-color: gold;
+  --card-inner-background: green;
+  --card-shape-background-color: blue;
+}

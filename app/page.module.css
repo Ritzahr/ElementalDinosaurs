@@ -1,0 +1,14 @@
+.image {
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  object-fit: fill;
+}
+
+.placeholder {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  display: flex;
+  gap: 50px;
+}
