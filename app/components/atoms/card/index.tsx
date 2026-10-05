@@ -2,7 +2,6 @@ import { ActionIcon } from "../action-icon";
 import styles from "./card.module.css";
 
 const Card = ({ type = "default" }: string) => {
-  console.log(type);
   return (
     <div className={styles.container}>
       <div className={styles.innerFrame}>
