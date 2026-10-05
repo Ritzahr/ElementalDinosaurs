@@ -1,0 +1,18 @@
+.container {
+  width: fit-content;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 25px;
+
+  --card-inner-frame-display: block;
+  --card-inner-background-display: none;
+  --card-shape-display: flex;
+  --card-outer-border: 0.5px solid black;
+  --card-inner-border: 1px solid black;
+  --card-shape-border-radius: 40%;
+  --card-container-background: rgb(194, 193, 192);
+  --card-inner-frame-background-color: rgb(111, 111, 111);
+  --card-inner-background: rgb(79, 79, 79);
+  --card-shape-background-color: rgb(145, 143, 143);
+}
