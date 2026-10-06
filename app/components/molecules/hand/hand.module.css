@@ -1,0 +1,31 @@
+.container {
+  position: relative;
+  height: 380px;
+  width:400px;
+  margin: 0 auto;
+}
+
+.card-0 {
+  position: absolute;
+  transform: translate(0px, 70px) rotate(320deg);
+}
+
+.card-1 {
+  position: absolute;
+  transform: translate(35px, 55px) rotate(340deg);
+}
+
+.card-2 {
+  position: absolute;
+  transform: translate(90px, 40px) rotate(0deg);
+}
+
+.card-3 {
+  position: absolute;
+  transform: translate(140px, 55px) rotate(15deg);
+}
+
+.card-4 {
+  position: absolute;
+  transform: translate(165px, 70px) rotate(37deg);
+}
